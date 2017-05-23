@@ -1,8 +1,4 @@
-# ltmdm64_poc
-
 # Windows 7 SP1 x64 Code Integrity Bypass POC using ltmdm64.sys
-
-# Description
 
 Bug was found in ltmdm64.sys!DriverEntry driver incorrectly uses RtlQueryRegistryValues API it also lacks security cookies across entire binary except GsDriverEntry function.
 
